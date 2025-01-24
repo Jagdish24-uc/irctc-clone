@@ -1,0 +1,34 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Dark background color */
+    padding: 10px 20px;
+    color: white; /* White text color */
+  }
+  
+  .navbar h1 {
+    margin: 0; /* Remove default margin from h1 */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align list items horizontally */
+  }
+  
+  .navbar li {
+    margin: 0 15px; /* Add space between list items */
+  }
+  
+  .navbar a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 16px; /* Set font size for links */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
