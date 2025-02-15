@@ -1,15 +1,105 @@
 .train-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .train-card h3 {
-    margin: 0 0 8px;
-  }
-  
-  .train-card p {
-    margin: 4px 0;
-  }
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.train-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.train-header p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.train-schedule {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.schedule-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedule-item .time {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.schedule-item .station {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.schedule-item .day {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.duration {
+  margin: 0 16px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.train-classes {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.train-classes .class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.train-classes button {
+  margin-top: 8px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.train-footer {
+  margin-top: 16px;
+}
+
+.train-footer p {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.actions button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.actions .book-now {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.actions .other-dates {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

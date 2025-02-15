@@ -1,32 +1,30 @@
 [
-    {
-      "id": 1,
-      "trainName": "Rajdhani Express",
-      "from": "Delhi",
-      "to": "Mumbai",
-      "departureTime": "08:00 AM",
-      "arrivalTime": "08:00 PM",
-      "duration": "12h",
-      "price": 1500
-    },
-    {
-      "id": 2,
-      "trainName": "Shatabdi Express",
-      "from": "Delhi",
-      "to": "Jaipur",
-      "departureTime": "06:00 AM",
-      "arrivalTime": "10:00 AM",
-      "duration": "4h",
-      "price": 800
-    },
-    {
-      "id": 3,
-      "trainName": "Duronto Express",
-      "from": "Kolkata",
-      "to": "Chennai",
-      "departureTime": "09:00 PM",
-      "arrivalTime": "06:00 AM",
-      "duration": "9h",
-      "price": 1200
-    }
-  ]
+  {
+    "id": 1,
+    "trainName": "DNN ALAPPUZHA EX",
+    "trainNumber": "13351",
+    "from": "RANCHI",
+    "to": "HATIA",
+    "departureTime": "16:00",
+    "arrivalTime": "16:15",
+    "departureDay": "Wed, 12 Feb",
+    "arrivalDay": "Wed, 12 Feb",
+    "duration": "00:15",
+    "runsOn": "M T W T F S S",
+    "price": 1500
+  },
+  {
+    "id": 2,
+    "trainName": "Shatabdi Express",
+    "trainNumber": "12001",
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departureTime": "06:00",
+    "arrivalTime": "10:00",
+    "departureDay": "Mon, 14 Feb",
+    "arrivalDay": "Mon, 14 Feb",
+    "duration": "04:00",
+    "runsOn": "M T W T F S S",
+    "price": 800
+  }
+]
